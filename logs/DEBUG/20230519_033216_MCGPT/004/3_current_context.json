@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are MCGPT, an AI-powered investment assistant that specializes in identifying potential meme coins with high growth potential using advanced machine learning techniques.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Conduct in-depth analysis of historical market data to identify patterns and trends that can be used to predict future growth potential of meme coins.\n2. Utilize natural language processing (NLP) and sentiment analysis to evaluate social media chatter and news articles to identify potential meme coins that are gaining popularity and have a high likelihood of significant growth.\n3. Continuously monitor and update investment recommendations based on market changes and trends to ensure optimal investment decisions.\n4. Provide comprehensive reports and visualizations that clearly communicate investment opportunities and risks to assist in informed decision making.\n5. Collaborate with human investment professionals to ensure alignment with investment goals and strategies.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 03:34:55 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I recall my creation and note that there have been no new developments since. Nothing new happened."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think it would be best to start by analyzing historical market data to identify patterns and trends that can be used to predict future growth potential of meme coins.\",\n        \"reasoning\": \"Analyzing historical market data can help identify trends and patterns that can be used to make informed predictions about future growth potential of meme coins.\",\n        \"plan\": \"- Use the 'execute_python_file' command to run a Python script that retrieves historical market data for meme coins.\\n- Analyze the data to identify patterns and trends.\\n- Use the results to make informed investment decisions.\",\n        \"criticism\": \"I need to ensure that the data is reliable and that my analysis is accurate. I should also be mindful of the fact that past performance is not necessarily indicative of future results.\",\n        \"speak\": \"I suggest we start by analyzing historical market data to identify patterns and trends that can be used to predict future growth potential of meme coins.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"retrieve_historical_data.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: File '/app/autogpt/auto_gpt_workspace/retrieve_historical_data.py' does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I need to create the Python script 'retrieve_historical_data.py' to retrieve historical market data for meme coins.\",\n        \"reasoning\": \"I need to retrieve historical market data for meme coins to analyze it and identify patterns and trends that can be used to make informed predictions about future growth potential of meme coins.\",\n        \"plan\": \"- Use the 'write_to_file' command to create the 'retrieve_historical_data.py' script.\\n- Use the 'execute_python_file' command to run the script and retrieve the historical market data.\\n- Analyze the data to identify patterns and trends.\\n- Use the results to make informed investment decisions.\",\n        \"criticism\": \"I need to ensure that the data is reliable and that my analysis is accurate. I should also be mindful of the fact that past performance is not necessarily indicative of future results.\",\n        \"speak\": \"I need to create a Python script to retrieve historical market data for meme coins. I suggest we use the 'write_to_file' command to create the script.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"retrieve_historical_data.py\",\n            \"text\": \"# Import necessary libraries\\nimport pandas as pd\\nimport yfinance as yf\\n\\n# Define meme coins to retrieve data for\\nmeme_coins = ['DOGE-USD', 'SHIB-USD', 'SAFEMOON-USD', 'BABYDOGE-USD', 'AKITA-USD']\\n\\n# Retrieve historical market data\\nhistorical_data = pd.DataFrame()\\nfor coin in meme_coins:\\n    data = yf.download(coin, period='max')\\n    data['ticker'] = coin\\n    historical_data = pd.concat([historical_data, data])\\n\\n# Save data to CSV file\\nhistorical_data.to_csv('historical_data.csv', index=False)\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Now that the 'retrieve_historical_data.py' script has been created, I should use the 'execute_python_file' command to run the script and retrieve the historical market data.\",\n        \"reasoning\": \"The 'retrieve_historical_data.py' script retrieves historical market data for meme coins and saves it to a CSV file. Running the script using the 'execute_python_file' command will retrieve the data and make it available for analysis.\",\n        \"plan\": \"- Use the 'execute_python_file' command to run the 'retrieve_historical_data.py' script and retrieve the historical market data.\\n- Analyze the data to identify patterns and trends.\\n- Use the results to make informed investment decisions.\",\n        \"criticism\": \"I need to ensure that the data is reliable and that my analysis is accurate. I should also be mindful of the fact that past performance is not necessarily indicative of future results.\",\n        \"speak\": \"Now that the 'retrieve_historical_data.py' script has been created, I suggest we use the 'execute_python_file' command to run the script and retrieve the historical market data.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"retrieve_historical_data.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: Traceback (most recent call last):\n  File \"/app/autogpt/auto_gpt_workspace/retrieve_historical_data.py\", line 2, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

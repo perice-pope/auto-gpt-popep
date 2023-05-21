@@ -1,0 +1,8 @@
+docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:latest
+docker run -p 6379:6379 redislabs/redisearch:latest
+docker compose up
+docker-compose run --rm auto-gpt
+
+generate 3 articles in seperate .txt files about michigan trees
+
+Whitepaper analysis: Read the cryptocurrency RICK whitepaper if available. The whitepaper provides detailed information about the project's concept, technology, implementation, and future plans. Pay attention to the problem it aims to solve and the uniqueness of its approach. Put in simple terms where possible. 

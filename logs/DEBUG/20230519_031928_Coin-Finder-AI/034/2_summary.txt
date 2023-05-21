@@ -1,0 +1,1 @@
+"As a system, I received a command to search for information on the reliability of Coingecko for historical data of meme coins. The computer returned search results, including a link to Coingecko's historical data for the MEME coin, but no information on the reliability of the website."

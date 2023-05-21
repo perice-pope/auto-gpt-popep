@@ -1,0 +1,1 @@
+"I tried to install poppler-utils using sudo apt-get, but received an error message saying sudo was not found. To fix this, I executed a command to update and install poppler-utils using apt-get update and apt-get install -y poppler-utils."

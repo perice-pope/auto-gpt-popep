@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI attempted to execute the Python file \"analyze_data.py\" but it returned an error saying that the file does not exist. My assistant suggested using web scraping to gather historical data on meme coins, and wrote a Python script \"web_scraping.py\" to automate the process and save the data to a file. I executed the script and it returned a list of the top 100 cryptocurrencies, along with their prices, market caps, and other statistics.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
+    }
+]

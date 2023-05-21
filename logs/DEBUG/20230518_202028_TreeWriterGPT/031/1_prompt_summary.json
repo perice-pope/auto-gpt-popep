@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI remembered past events, but there were no new developments to report. I received a command to read the file \"send_tweet.py\". However, the command returned an error stating that the file does not exist. I then used the command \"list_files\" to view the files in the current directory, which returned a list of files including \"send_tweet.py\". I then used the command \"write_to_file\" to create the file \"send_tweet.py\" and wrote the necessary code for sending a tweet using Tweepy. I confirmed the file was written successfully and then used the command \"read_file\" to view the contents of \"send_tweet.py\", which returned the correct code.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"types of trees in michigan\"}}}'}]\n\"\"\"\n"
+    }
+]

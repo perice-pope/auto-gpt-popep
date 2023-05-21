@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the 'google' command with the query 'rick token white paper' to find more information about the RICK whitepaper.",
+        "reasoning": "I was not able to find any information about the RICK whitepaper on the previous website. Therefore, I will use the 'google' command with the query 'rick token white paper' to find more information about the RICK whitepaper.",
+        "plan": "- Use the 'google' command with the query 'rick token white paper' to find more information about the RICK whitepaper.",
+        "criticism": "None.",
+        "speak": "I will use the 'google' command with the query 'rick token white paper' to find more information about the RICK whitepaper."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "rick token white paper"
+        }
+    }
+}

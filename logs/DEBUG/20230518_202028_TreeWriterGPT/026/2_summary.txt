@@ -1,0 +1,1 @@
+"I used the \"analyze_code\" command to troubleshoot the issue with the \"send_tweet\" command, but received an error that the model \"gpt-4\" does not exist. I then used the \"google\" command to search for a solution and found a query for \"tweepy 'consumer_key must be string or bytes, not NoneType'\"."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to start by analyzing the RICK whitepaper to identify its unique features and potential weaknesses. I should also compare it to other similar projects to provide users with a comprehensive understanding of the cryptocurrency.",
+        "reasoning": "Analyzing the RICK whitepaper is the first step towards understanding the project's approach and identifying any potential weaknesses. Comparing it to other similar projects will help users make informed decisions about investing in RICK.",
+        "plan": "- Analyze the RICK whitepaper\n- Identify unique features and potential weaknesses\n- Compare to other similar projects",
+        "criticism": "I need to ensure that I don't miss any important information while analyzing the whitepaper. I should also be careful not to make any biased comparisons with other projects.",
+        "speak": "I will start by analyzing the RICK whitepaper to identify its unique features and potential weaknesses. Then, I will compare it to other similar projects to provide users with a comprehensive understanding of the cryptocurrency."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "RICK cryptocurrency whitepaper"
+        }
+    }
+}

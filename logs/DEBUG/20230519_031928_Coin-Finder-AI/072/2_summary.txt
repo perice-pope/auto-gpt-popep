@@ -1,0 +1,1 @@
+"As my computer, I executed the read_file command which returned an HTML code containing a redirection link to a CSV file on coingecko.com."

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the 'google' command to research and gather information about the different types of trees present in Michigan.",
+        "reasoning": "Now that I have written an informative article about the different trees found in Michigan, I will use the 'google' command to research and gather more information about the different types of trees present in Michigan. This will ensure that I can write a high-quality article about trees in Michigan that is informative and engaging.",
+        "plan": "- Use 'google' command to research and gather information about the different types of trees present in Michigan.",
+        "criticism": "I should make sure to properly cite my sources in the article.",
+        "speak": "I will use the 'google' command to research and gather information about the different types of trees present in Michigan."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Different types of trees in Michigan"
+        }
+    }
+}

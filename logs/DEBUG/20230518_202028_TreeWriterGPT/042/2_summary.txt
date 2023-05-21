@@ -1,0 +1,1 @@
+"I executed the command to install the PyPDF2 package using pip. The command was successful and the package was installed. A warning was given about running pip as the root user."

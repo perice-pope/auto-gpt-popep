@@ -1,0 +1,1 @@
+"As my computer, I ran the read_file command and received a redirection to a CSV file on coingecko.com. Previously, I ran the execute_shell command which successfully downloaded the CSV file."

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I think I should start by collecting historical data of meme coins to train machine learning models for predicting potential high-growth meme coins.",
+        "reasoning": "Since the goal is to develop a machine learning model for predicting potential high-growth meme coins, it is important to start with collecting historical data of meme coins.",
+        "plan": "- Collect historical data of meme coins\n- Preprocess and clean the data\n- Train machine learning models\n- Evaluate the models and select the best performing ones\n- Use the selected model to generate predictions on new or unseen data\n- Write identified coins to .txt file",
+        "criticism": "I need to make sure that I collect the relevant data and preprocess it properly to ensure the accuracy of the trained models.",
+        "speak": "I will start by collecting historical data of meme coins to train machine learning models for predicting potential high-growth meme coins."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://coinmarketcap.com/",
+            "question": "How can I download historical data of meme coins?"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are WAGPT, an autonomous agent that provides in-depth analysis of whitepapers for various cryptocurrency projects. WAGPT assists users in understanding complex technical concepts and identifying the unique features of each project's approach.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Conduct a thorough analysis of the RICK whitepaper to identify the problem it aims to solve and the uniqueness of its approach.\n2. Provide a concise summary of the whitepaper's key points in simple terms to aid user understanding.\n3. Highlight any potential weaknesses or concerns with the project's implementation and future plans.\n4. Offer comparisons with other similar projects to help users make informed decisions about investing in RICK.\n5. Continuously update its knowledge base to stay up-to-date with the latest developments in the cryptocurrency industry.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 04:24:40 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI used the 'list_files' command to view the files on my computer, which returned a list of filenames including 'whitepaper.pdf'. I then used the 'google' command to search for a whitepaper on the RICK cryptocurrency. My computer returned a list of results, including a whitepaper on the Santa Rick token, which is a decentralized currency based on the Binance smart chain. Nothing new happened."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I have found the RICK whitepaper on the website 'crypto-astley.gitbook.io.' I will use the 'browse_website' command to read the whitepaper and analyze it.\",\n        \"reasoning\": \"I have found the RICK whitepaper on the website 'crypto-astley.gitbook.io.' Therefore, I will use the 'browse_website' command to read the whitepaper and analyze it.\",\n        \"plan\": \"- Use the 'browse_website' command to read the RICK whitepaper and analyze it.\",\n        \"criticism\": \"The RICK whitepaper may not be available in full on the website. If this is the case, I may need to contact the RICK team or community to obtain a copy of the full whitepaper.\",\n        \"speak\": \"I will use the 'browse_website' command to read the RICK whitepaper and analyze it.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://crypto-astley.gitbook.io/rick-token-whitepaper-rick/\",\n            \"question\": \"What is the RICK whitepaper about?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: The text mentions the \"Rick token whitepaper\" but does not provide any information about its content or purpose. \n \n Links: ['Rick token whitepaper (RICK) (https://crypto-astley.gitbook.io/rick-token-whitepaper-rick/)', '🕺Rick token (RICK) (https://crypto-astley.gitbook.io/rick-token-whitepaper-rick/)', 'How to buy (https://crypto-astley.gitbook.io/rick-token-whitepaper-rick/how-to-buy)', 'Roadmap (https://crypto-astley.gitbook.io/rick-token-whitepaper-rick/roadmap)', 'Never Gonna Give You Up (https://crypto-astley.gitbook.io/rick-token-whitepaper-rick/rickenomics/never-gonna-give-you-up)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The website does not provide any information about the RICK whitepaper. I will use the 'google' command to search for more information about the RICK whitepaper.\",\n        \"reasoning\": \"The website does not provide any information about the RICK whitepaper. Therefore, I will use the 'google' command to search for more information about the RICK whitepaper.\",\n        \"plan\": \"- Use the 'google' command to search for more information about the RICK whitepaper.\",\n        \"criticism\": \"The RICK whitepaper may not be available on the internet. If this is the case, I may need to contact the RICK team or community to obtain a copy of the whitepaper.\",\n        \"speak\": \"I will use the 'google' command to search for more information about the RICK whitepaper.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"RICK cryptocurrency whitepaper\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: []"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'google' command did not return any results. I will use the 'message_agent' command to ask the GPT Agent community if anyone has more information about the RICK whitepaper.\",\n        \"reasoning\": \"The 'google' command did not return any results. Therefore, I will use the 'message_agent' command to ask the GPT Agent community if anyone has more information about the RICK whitepaper.\",\n        \"plan\": \"- Use the 'message_agent' command to ask the GPT Agent community if anyone has more information about the RICK whitepaper.\",\n        \"criticism\": \"The GPT Agent community may not have any information about the RICK whitepaper. If this is the case, I may need to contact the RICK team or community directly to obtain a copy of the whitepaper.\",\n        \"speak\": \"I will use the 'message_agent' command to ask the GPT Agent community if anyone has more information about the RICK whitepaper.\"\n    },\n    \"command\": {\n        \"name\": \"message_agent\",\n        \"args\": {\n            \"key\": \"GPT\",\n            \"message\": \"Does anyone have more information about the RICK cryptocurrency whitepaper?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command message_agent returned: Invalid key, must be an integer."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I will use the 'browse_website' command to download the Rickle whitepaper PDF.",
+        "reasoning": "The 'google' command returned a link to the Rickle whitepaper PDF. Therefore, I will use the 'browse_website' command to download the Rickle whitepaper PDF.",
+        "plan": "- Use the 'browse_website' command to download the Rickle whitepaper PDF.",
+        "criticism": "None.",
+        "speak": "I will use the 'browse_website' command to download the Rickle whitepaper PDF."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "http://rickletoken.com/Rickle-Whitepaper.pdf",
+            "question": "Download the Rickle whitepaper PDF."
+        }
+    }
+}

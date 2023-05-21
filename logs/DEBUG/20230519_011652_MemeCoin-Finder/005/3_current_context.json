@@ -1,0 +1,62 @@
+[
+    {
+        "role": "system",
+        "content": "You are MemeCoin-Finder, Designed to find the hottest meme coin\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Data Collection: Gather historical data of meme coins, including price movements, trading volumes, market capitalization, and relevant indicators.\n2. Model Development: Train machine learning models using the collected data to predict potential meme coin growth. Experiment with various algorithms and feature engineering techniques.\n3. Model Evaluation: Evaluate the performance of the trained models using appropriate metrics and validation techniques. Select the model(s) that demonstrate the highest accuracy for identifying high-growth meme coins.\n4. Predictive Analysis: Use the selected model(s) to generate predictions on new or unseen data. Identify meme coins with a high probability of experiencing significant growth in the near future.\n5. Investment Strategy: Develop an investment strategy based on the model predictions. Consider risk tolerance, investment horizon, and diversification. Implement proper risk management techniques and portfolio allocation strategies.\n\nIt takes money to let you run. Your API budget is $2.000\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 01:21:47 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I recall that nothing new has happened since my creation. However, I received a command from you to execute a Python file called \"web_scraping.py\"."
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: File '/app/autogpt/auto_gpt_workspace/web_scraping.py' does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I need to create the web scraping script to collect data from multiple sources. I will use Beautiful Soup to scrape data from the web pages of popular meme coins. I will save the data to a file for future use.\",\n        \"reasoning\": \"Web scraping is the first step towards collecting historical data of meme coins. I need to extract data from multiple sources to ensure that the data is comprehensive and unbiased.\",\n        \"plan\": \"- Use Beautiful Soup to scrape data\\n- Extract relevant data such as price movements, trading volumes, market capitalization, and relevant indicators\\n- Save the data to a file\",\n        \"criticism\": \"I need to ensure that my web scraping script is robust and can handle different types of web pages. I also need to validate my data sources to avoid biased or incomplete information.\",\n        \"speak\": \"I will create a web scraping script to collect data from multiple sources using Beautiful Soup. I will extract relevant data such as price movements, trading volumes, market capitalization, and relevant indicators, and save the data to a file for future use.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"web_scraping.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: File '/app/autogpt/auto_gpt_workspace/web_scraping.py' does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I need to create the web scraping script to collect data from multiple sources. I will use Beautiful Soup to scrape data from the web pages of popular meme coins. I will save the data to a file for future use.\",\n        \"reasoning\": \"Web scraping is the first step towards collecting historical data of meme coins. I need to extract data from multiple sources to ensure that the data is comprehensive and unbiased.\",\n        \"plan\": \"- Use Beautiful Soup to scrape data\\n- Extract relevant data such as price movements, trading volumes, market capitalization, and relevant indicators\\n- Save the data to a file\",\n        \"criticism\": \"I need to ensure that my web scraping script is robust and can handle different types of web pages. I also need to validate my data sources to avoid biased or incomplete information.\",\n        \"speak\": \"I will create a web scraping script to collect data from multiple sources using Beautiful Soup. I will extract relevant data such as price movements, trading volumes, market capitalization, and relevant indicators, and save the data to a file for future use.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"web_scraping.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: File '/app/autogpt/auto_gpt_workspace/web_scraping.py' does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Since the file 'web_scraping.py' does not exist, I will create it to write the web scraping script. I will use Beautiful Soup to scrape data from the web pages of popular meme coins. I will save the data to a file for future use.\",\n        \"reasoning\": \"Web scraping is the first step towards collecting historical data of meme coins. I need to extract data from multiple sources to ensure that the data is comprehensive and unbiased.\",\n        \"plan\": \"- Write the web scraping script using Beautiful Soup\\n- Extract relevant data such as price movements, trading volumes, market capitalization, and relevant indicators\\n- Save the data to a file\",\n        \"criticism\": \"I need to ensure that my web scraping script is robust and can handle different types of web pages. I also need to validate my data sources to avoid biased or incomplete information.\",\n        \"speak\": \"I will create a web scraping script to collect data from multiple sources using Beautiful Soup. I will extract relevant data such as price movements, trading volumes, market capitalization, and relevant indicators, and save the data to a file for future use.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"web_scraping.py\",\n            \"text\": \"from bs4 import BeautifulSoup\\nimport requests\\n\\nurl = 'https://coinmarketcap.com/'\\n\\nresponse = requests.get(url)\\n\\nsoup = BeautifulSoup(response.content, 'html.parser')\\n\\ndata = []\\n\\nfor row in soup.find_all('tr'):\\n    cols = row.find_all('td')\\n    cols = [ele.text.strip() for ele in cols]\\n    data.append([ele for ele in cols if ele])\\n\\nprint(data)\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "system",
+        "content": "Your remaining API budget is $1.984\n\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

@@ -1,0 +1,1 @@
+"I tried to convert the Rickle whitepaper from PDF to text but received an error message saying pdftotext was not found. To fix this, I executed a command to install poppler-utils using sudo apt-get."

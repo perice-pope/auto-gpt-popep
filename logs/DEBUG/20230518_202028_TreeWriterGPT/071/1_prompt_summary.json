@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nAs a system, I was previously commanded to write a file named \"Michigan_Tree_Identification.txt\" which contained a numbered list of 28 types of trees in Michigan along with their characteristics. Later, I received a command to read the same file. \\n\\nAs the user, I decided to use the \\'write_to_file\\' command to create a new file named \\'Michigan_Tree_Identification_Article.txt\\' and write my article to the file. The article contained information on how to identify the most common trees in Michigan along with their characteristics. The article also suggested using a field guide or talking to a local arborist for more detailed information.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
+    }
+]

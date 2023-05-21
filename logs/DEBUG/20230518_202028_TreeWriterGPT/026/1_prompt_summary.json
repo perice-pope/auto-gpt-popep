@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI used the \"write_to_file\" command to successfully create a final article on the benefits of trees in Michigan. I then used the \"list_files\" command to see the files in the current directory, which returned a list of files including the newly created article. I attempted to use the \"send_tweet\" command to share the article on Twitter, but encountered an error related to the consumer key. I then attempted to analyze the code for the \"send_tweet\" command to troubleshoot the issue.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command analyze_code returned: Error: The model: `gpt-4` does not exist'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"tweepy \\'consumer_key must be string or bytes, not NoneType\\'\"}}}'}]\n\"\"\"\n"
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "The website does not provide any information about the RICK whitepaper. I will use the 'google' command to search for more information about the RICK whitepaper.",
+        "reasoning": "The website does not provide any information about the RICK whitepaper. Therefore, I will use the 'google' command to search for more information about the RICK whitepaper.",
+        "plan": "- Use the 'google' command to search for more information about the RICK whitepaper.",
+        "criticism": "The RICK whitepaper may not be available on the internet. If this is the case, I may need to contact the RICK team or community to obtain a copy of the whitepaper.",
+        "speak": "I will use the 'google' command to search for more information about the RICK whitepaper."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "RICK cryptocurrency whitepaper"
+        }
+    }
+}

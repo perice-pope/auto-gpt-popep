@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the 'execute_shell' command to install pdftotext package using apt-get.",
+        "reasoning": "The 'execute_shell' command returned an error message that the sudo command is not found. Therefore, I will use the 'execute_shell' command to install pdftotext package using apt-get.",
+        "plan": "- Use the 'execute_shell' command to install pdftotext package using apt-get.",
+        "criticism": "None.",
+        "speak": "I will use the 'execute_shell' command to install pdftotext package using apt-get."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "apt-get update && apt-get install -y poppler-utils"
+        }
+    }
+}

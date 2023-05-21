@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Since the website does not provide information on whether it is a reliable source for historical data of meme coins, I will need to look for other websites that provide this information. I will use Google to search for reviews or user feedback on the reliability of the website.",
+        "reasoning": "I need to ensure that I am using a reliable source for historical data of meme coins to ensure the accuracy of the trained models.",
+        "plan": "- Use Google to search for reviews or user feedback on the reliability of the website.\n- Evaluate the information gathered to determine the reliability of the website.\n- Download the data from the website.",
+        "criticism": "I need to be careful when evaluating the reviews and user feedback to ensure that they are from reliable sources and not biased.",
+        "speak": "Since the website does not provide information on whether it is a reliable source for historical data of meme coins, I will use Google to search for reviews or user feedback on the reliability of the website."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "coingecko historical data meme coins reliability review"
+        }
+    }
+}

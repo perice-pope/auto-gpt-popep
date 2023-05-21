@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "We will use Google Trends to identify the top meme coins by search volume.",
+        "reasoning": "Search volume is a good indicator of interest in a particular topic or coin.",
+        "plan": "- Use the 'google' command to search for the top meme coins on Google Trends.",
+        "criticism": "We need to ensure that we are searching for the correct terms and using the appropriate filters to get accurate results.",
+        "speak": "We will use Google Trends to identify the top meme coins by search volume."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "top meme coins on Google Trends"
+        }
+    }
+}

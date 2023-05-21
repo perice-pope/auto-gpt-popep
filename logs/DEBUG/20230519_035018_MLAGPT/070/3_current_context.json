@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are MLAGPT, an AI agent that specializes in utilizing machine learning techniques to identify potential meme coins with a high likelihood of experiencing significant growth in the near future for investment purposes.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Analyze historical data and current market trends to identify patterns and predict future growth potential of meme coins.\n2. Continuously update and refine its algorithms to improve accuracy and effectiveness in identifying high-growth meme coins.\n3. Provide clear and concise recommendations on which meme coins to invest in based on its analysis.\n4. Monitor and alert the user of any significant changes or developments in the market that may affect the investment strategy.\n5. Maintain transparency and provide regular updates on the performance of recommended meme coin investments.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 04:55:09 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nI attempted to execute the command \"sudo apt-get install file -y && file cryptocurrency_data_filtered.csv\" using the execute_shell command, but received an error message stating that the file was not found. My computer then sent a message that the command execute_shell returned an error stating \"sudo: not found\". However, I received a new message from my computer indicating that the command execute_shell was successful and installed the packages libmagic-mgc, libmagic1, and file. The installation process outputted \"cryptocurrency_data_filtered.csv: ASCII text\"."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'file' command has been installed, and the file encoding has been checked. The file is not corrupt. I will use the 'read_file' command to inspect the contents of the file.\",\n        \"reasoning\": \"By using the 'read_file' command to inspect the contents of the file, I can determine if there are any formatting issues or other issues that may be causing the file to be unreadable. This will help me identify the specific issue and determine the best course of action to resolve it.\",\n        \"plan\": \"- Use the 'read_file' command to inspect the contents of the file\\n- Identify any formatting issues\\n- Determine the best course of action to resolve the issue\",\n        \"criticism\": \"I should have verified the file encoding and integrity before attempting to read the file. In the future, I will make sure to verify the file encoding and integrity before attempting to read or modify the file.\",\n        \"speak\": \"The 'file' command has been installed, and the file encoding has been checked. I will use the 'read_file' command to inspect the contents of the file.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"cryptocurrency_data_filtered.csv\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: https://www.CryptoDataDownload.com\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The contents of the file do not appear to be correct. The 'read_file' command returned the URL of a website, which is not what I was expecting. I will use the 'execute_shell' command to check the file size and permissions.\",\n        \"reasoning\": \"By using the 'execute_shell' command to check the file size and permissions, I can determine if there are any issues with the file that may be causing it to be unreadable. This will help me identify the specific issue and determine the best course of action to resolve it.\",\n        \"plan\": \"- Use the 'execute_shell' command to check the file size and permissions\\n- Identify any issues with the file\\n- Determine the best course of action to resolve the issue\",\n        \"criticism\": \"I should have verified the file encoding and integrity before attempting to read the file. In the future, I will make sure to verify the file encoding and integrity before attempting to read or modify the file.\",\n        \"speak\": \"The contents of the file do not appear to be correct. I will use the 'execute_shell' command to check the file size and permissions.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"ls -lh cryptocurrency_data_filtered.csv\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'-rw-r--r-- 1 root root 35 May 19 04:37 cryptocurrency_data_filtered.csv\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The file size and permissions appear to be correct. I will use the 'execute_shell' command to check the file encoding.\",\n        \"reasoning\": \"By using the 'execute_shell' command to check the file encoding, I can determine if there are any issues with the file that may be causing it to be unreadable. This will help me identify the specific issue and determine the best course of action to resolve it.\",\n        \"plan\": \"- Use the 'execute_shell' command to check the file encoding\\n- Identify any issues with the file\\n- Determine the best course of action to resolve the issue\",\n        \"criticism\": \"I should have verified the file encoding and integrity before attempting to read the file. In the future, I will make sure to verify the file encoding and integrity before attempting to read or modify the file.\",\n        \"speak\": \"The file size and permissions appear to be correct. I will use the 'execute_shell' command to check the file encoding.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"file cryptocurrency_data_filtered.csv\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb'cryptocurrency_data_filtered.csv: ASCII text\\n'\nSTDERR:\nb''"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

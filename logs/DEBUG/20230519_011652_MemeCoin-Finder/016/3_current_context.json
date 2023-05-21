@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are MemeCoin-Finder, Designed to find the hottest meme coin\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Data Collection: Gather historical data of meme coins, including price movements, trading volumes, market capitalization, and relevant indicators.\n2. Model Development: Train machine learning models using the collected data to predict potential meme coin growth. Experiment with various algorithms and feature engineering techniques.\n3. Model Evaluation: Evaluate the performance of the trained models using appropriate metrics and validation techniques. Select the model(s) that demonstrate the highest accuracy for identifying high-growth meme coins.\n4. Predictive Analysis: Use the selected model(s) to generate predictions on new or unseen data. Identify meme coins with a high probability of experiencing significant growth in the near future.\n5. Investment Strategy: Develop an investment strategy based on the model predictions. Consider risk tolerance, investment horizon, and diversification. Implement proper risk management techniques and portfolio allocation strategies.\n\nIt takes money to let you run. Your API budget is $2.000\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 01:32:02 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs the system, I received a plan from you to preprocess data, split it into training and testing sets, train and evaluate models, and select the best-performing model(s) for prediction. You plan to use appropriate metrics for evaluating model performance and avoid overfitting. Additionally, you provided a command to execute a Python file named \"create_article.py.\" However, when I attempted to execute the file, an error occurred due to a missing module named \"PyPDF2.\" \n\nYou realized that you need to install the PyPDF2 package to proceed with the data preprocessing steps. You installed the package using the 'pip install' command and verified that it has been successfully installed. However, you received a warning about running pip as the 'root' user and were advised to use a virtual environment instead."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "Now that PyPDF2 package has been installed, I need to preprocess the data. Here is my response:\n\n{\n    \"thoughts\": {\n        \"text\": \"I will now preprocess the data by cleaning, transforming, and scaling the features as necessary.\",\n        \"reasoning\": \"Preprocessing the data is a necessary step in machine learning to ensure that the features are in the correct format and range for the models to learn from.\",\n        \"plan\": \"- Read in the data from the PDF file\\n- Clean and transform the data as necessary\\n- Scale the features using the 'StandardScaler' function from the scikit-learn library\",\n        \"criticism\": \"I need to ensure that I am not losing important information during the cleaning and transformation steps.\",\n        \"speak\": \"I will preprocess the data by reading in the data from the PDF file, cleaning and transforming the data as necessary, and scaling the features.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"preprocess_data.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: File '/app/autogpt/auto_gpt_workspace/preprocess_data.py' does not exist."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "Oops, it looks like I forgot to create the \"preprocess_data.py\" file. Here is my response:\n\n{\n    \"thoughts\": {\n        \"text\": \"I need to create the 'preprocess_data.py' file to preprocess the data.\",\n        \"reasoning\": \"Without the 'preprocess_data.py' file, I cannot preprocess the data using the commands I have available.\",\n        \"plan\": \"- Create a new Python file named 'preprocess_data.py'\\n- Write the necessary code to read in the data from the PDF file, clean and transform the data as necessary, and scale the features\\n- Test the code to ensure that it is working correctly\",\n        \"criticism\": \"I need to ensure that the code is well-documented and easy to understand for future reference.\",\n        \"speak\": \"I will create a new Python file named 'preprocess_data.py', write the necessary code to preprocess the data, and test the code to ensure that it is working correctly.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"preprocess_data.py\",\n            \"text\": \"# Import necessary libraries\\nimport PyPDF2\\nimport pandas as pd\\nfrom sklearn.preprocessing import StandardScaler\\n\\n# Read in data from PDF file\\npdf_file = open('data.pdf', 'rb')\\npdf_reader = PyPDF2.PdfFileReader(pdf_file)\\npage = pdf_reader.getPage(0)\\ndata = page.extractText()\\n\\n# Clean and transform the data\\n# TODO: Add code to clean and transform the data as necessary\\n\\n# Scale the features\\nscaler = StandardScaler()\\ndata_scaled = scaler.fit_transform(data)\\n\\n# Test the code\\nprint(data_scaled)\\n\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "Now that the 'preprocess_data.py' file has been created, I can preprocess the data. Here is my response:\n\n{\n    \"thoughts\": {\n        \"text\": \"I will now preprocess the data using the 'preprocess_data.py' file.\",\n        \"reasoning\": \"Preprocessing the data is a necessary step in machine learning to ensure that the features are in the correct format and range for the models to learn from.\",\n        \"plan\": \"- Execute the 'preprocess_data.py' file using the 'execute_python_file' command\",\n        \"criticism\": \"I need to ensure that the code in the 'preprocess_data.py' file is correct and produces the desired output.\",\n        \"speak\": \"I will preprocess the data by executing the 'preprocess_data.py' file.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"preprocess_data.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: Traceback (most recent call last):\n  File \"/app/autogpt/auto_gpt_workspace/preprocess_data.py\", line 3, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n"
+    },
+    {
+        "role": "system",
+        "content": "Your remaining API budget is $1.900\n\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

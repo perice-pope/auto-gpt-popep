@@ -1,0 +1,1 @@
+"As my computer, I received a successful response from the execute_shell command which downloaded a CSV file from coingecko.com. The STDOUT showed a progress bar indicating the download progress."

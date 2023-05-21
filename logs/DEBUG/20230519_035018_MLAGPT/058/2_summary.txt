@@ -1,0 +1,1 @@
+"I used the 'execute_shell' command to display the first few lines of the 'cryptocurrency_data_filtered.csv' file and found that the contents do not match the expected format. I then used the 'google' command to search for common issues that may cause CSV files to not match the expected format."

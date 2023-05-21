@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to find the official RICK whitepaper to analyze its contents. I will use the search results to navigate to the project's official website and download the whitepaper from there.",
+        "reasoning": "Analyzing the official RICK whitepaper is crucial to understanding the project's approach and identifying any potential weaknesses. Downloading the whitepaper from the project's official website ensures that I have the latest version of the document.",
+        "plan": "- Use the search results to navigate to the project's official website\n- Download the RICK whitepaper",
+        "criticism": "I need to ensure that I am downloading the correct whitepaper from the official website and that the website is not a phishing scam.",
+        "speak": "I will use the search results to navigate to the project's official website and download the RICK whitepaper from there."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "RICK cryptocurrency official website"
+        }
+    }
+}

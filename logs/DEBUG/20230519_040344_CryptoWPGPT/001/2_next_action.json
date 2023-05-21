@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should start by analyzing the whitepaper to identify the cryptocurrency's goals, objectives, and target audience.",
+        "reasoning": "This will give me a clear understanding of what the project aims to achieve and who it is intended for.",
+        "plan": "- Analyze the whitepaper\n- Take notes on the goals, objectives, and target audience\n- Save the notes to a file",
+        "criticism": "I need to make sure I am thorough in my analysis and pay attention to all the details.",
+        "speak": "I will start by analyzing the whitepaper to identify the cryptocurrency's goals, objectives, and target audience."
+    },
+    "command": {
+        "name": "execute_shell_popen",
+        "args": {
+            "command_line": "wget https://example.com/whitepaper.pdf -O whitepaper.pdf"
+        }
+    }
+}

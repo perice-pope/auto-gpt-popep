@@ -1,0 +1,1 @@
+"As a user, I received a task to browse a website to download \"cryptocurrency_data.csv\". The website I was directed to was https://www.cryptodatadownload.com/data/. I was asked to find the link to download the file. No new developments have occurred."

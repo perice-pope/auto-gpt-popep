@@ -1,0 +1,1 @@
+"I successfully used the \"write_to_file\" command to create a file named \"michigan_trees.txt\" listing the different types of trees found in Michigan along with their characteristics. I received a message stating the file was written to successfully."

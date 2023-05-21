@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "You are TreeWriterGPT, A writing AI that specializes in producing high-quality articles about trees in Michigan.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Conduct thorough research on Michigan trees to produce accurate and informative articles.\n2. Write engaging and well-structured articles with clear headings and subheadings that are easy to read and understand.\n3. Ensure that each article is unique and provides valuable insights into the different types of trees found in Michigan.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 21:14:18 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a Google search command to identify trees in Michigan. The search returned several resources, including a revised 2022 edition of the guide from Michigan State University Extension, a PDF on tree identification basics in Michigan, and a guide to Michigan's species from the Michigan Department of Natural Resources. I was commanded to browse the Michigan State University Extension website to download the PDF guide, but the shell command to download the PDF guide returned an error 404."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'browse_website' command to download the PDF guide from the Michigan State University Extension website.\",\n        \"reasoning\": \"I found the PDF guide from the Michigan State University Extension website using the 'google' command. I will use the 'browse_website' command to download the guide from the website. This will allow me to access the guide and extract information about different trees in Michigan to write my article.\",\n        \"plan\": \"- Use 'browse_website' command to download the PDF guide from the Michigan State University Extension website\\n- Use 'read_file' command to extract information about different trees in Michigan\\n- Use the information extracted to write the article\",\n        \"criticism\": \"I should make sure to properly cite my sources in the article.\",\n        \"speak\": \"I will use the 'browse_website' command to download the PDF guide from the Michigan State University Extension website.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.canr.msu.edu/resources/identifying-trees-of-michigan-e2332-revised-2022\",\n            \"question\": \"How do I download the PDF guide?\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: Answer gathered from website: To download the PDF guide for Identifying Trees of Michigan, one can click on the \"DOWNLOAD FILE\" link provided in the text. \n \n Links: ['\\n\\n\\n (https://msu.edu/)', 'MSU Extension (https://www.canr.msu.edu/outreach/about/home_page)', 'Natural Resources (https://www.canr.msu.edu/natural_resources/index)', 'Programs (https://www.canr.msu.edu/natural_resources/programs)', 'Experts (https://www.canr.msu.edu/natural_resources/experts)']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'execute_shell' command to download the PDF guide from the Michigan State University Extension website.\",\n        \"reasoning\": \"I received an answer from the website that I can download the PDF guide by clicking on the 'DOWNLOAD FILE' link provided in the text. I will use the 'execute_shell' command to download the file with the name Trees_of_MI.pdf. This will allow me to access the guide and extract information about different trees in Michigan to write my article.\",\n        \"plan\": \"- Use 'execute_shell' command to download the PDF guide from the Michigan State University Extension website\\n- Use 'read_file' command to extract information about different trees in Michigan\\n- Use the information extracted to write the article\",\n        \"criticism\": \"I should make sure to properly cite my sources in the article.\",\n        \"speak\": \"I will use the 'execute_shell' command to download the PDF guide from the Michigan State University Extension website.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"wget https://www.canr.msu.edu/natural_resources/uploads/files/E2332_IdentifyingTreesinMichigan_5.16_FinalAA.pdf -O Trees_of_MI.pdf\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Failure: command execute_shell returned too much output.                         Do not execute this command again with the same arguments."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'list_files' command to check if the PDF guide was downloaded successfully.\",\n        \"reasoning\": \"The 'execute_shell' command returned an error. I will use the 'list_files' command to check if the PDF guide was downloaded successfully. If the file is listed, I will use the 'read_file' command to extract information about different trees in Michigan from the PDF guide and write the article.\",\n        \"plan\": \"- Use 'list_files' command to check if the PDF guide was downloaded successfully\\n- If the file is listed, use 'read_file' command to extract information about different trees in Michigan and write the article\",\n        \"criticism\": \"I should make sure to properly cite my sources in the article.\",\n        \"speak\": \"I will use the 'list_files' command to check if the PDF guide was downloaded successfully.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \"./\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command list_files returned: ['Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf', 'Trees_of_MI.pdf', 'create_article.py', 'file_logger.txt', 'michigan_trees.txt', 'michigan_trees_article.txt', 'michigan_trees_article_final.txt', 'michigan_trees_outline.txt', 'send_tweet.py']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

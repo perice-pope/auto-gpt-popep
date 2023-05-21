@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to narrow down my search results to find the official website for the RICK cryptocurrency project. I will search for 'RICK cryptocurrency official website' to find the correct website to download the whitepaper from.",
+        "reasoning": "Performing a more targeted search using the query 'RICK cryptocurrency official website' will increase the likelihood of finding the project's official website and downloading the correct whitepaper.",
+        "plan": "- Use the 'google' command to search for 'RICK cryptocurrency official website'\n- Navigate to the project's official website and download the whitepaper",
+        "criticism": "I need to ensure that the website I find is the official website and not a phishing scam. Additionally, I need to ensure that I am downloading the correct whitepaper from the official website.",
+        "speak": "I will use the 'google' command to search for 'RICK cryptocurrency official website' and navigate to the project's official website to download the whitepaper."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "RICK cryptocurrency official website"
+        }
+    }
+}

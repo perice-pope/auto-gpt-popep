@@ -1,0 +1,1 @@
+"I used the 'execute_shell_popen' command to install the pycoingecko package with pip3. This will allow me to use the CoinGecko API for cryptocurrency data. The command execute_shell_popen returned: Subprocess started with PID:'282'. I then ran the 'read_file' command with the argument 'filename': 'coin_data_downloader.py'."

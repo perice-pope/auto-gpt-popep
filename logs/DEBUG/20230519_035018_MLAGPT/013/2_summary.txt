@@ -1,0 +1,1 @@
+"I used the \"execute_shell\" command to install scikit-learn library by running \"pip install scikit-learn\". The command returned a message that the libraries were successfully installed. The warning message suggested using a virtual environment instead of running pip as the 'root' user."

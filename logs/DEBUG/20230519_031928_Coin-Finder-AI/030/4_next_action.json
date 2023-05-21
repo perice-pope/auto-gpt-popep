@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Since the website did not provide the information I needed, I will try to find another website where I can download historical data of meme coins.",
+        "reasoning": "I need to find a website that provides historical data of meme coins so that I can use it to train machine learning models for predicting potential high-growth meme coins.",
+        "plan": "- Search for websites that provide historical data of meme coins\n- Evaluate the websites and choose the most reliable one\n- Download the data and preprocess it",
+        "criticism": "I need to make sure that the website I choose provides reliable and accurate data to ensure the accuracy of the trained models.",
+        "speak": "I will search for websites that provide historical data of meme coins so that I can use it to train machine learning models for predicting potential high-growth meme coins."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "websites that provide historical data of meme coins"
+        }
+    }
+}

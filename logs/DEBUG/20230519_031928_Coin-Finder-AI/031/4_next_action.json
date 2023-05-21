@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I will evaluate the websites returned by the google search and choose the most reliable one to download historical data of meme coins.",
+        "reasoning": "I need to make sure that the website I choose provides reliable and accurate data to ensure the accuracy of the trained models.",
+        "plan": "- Evaluate the websites returned by the google search\n- Choose the most reliable one and download the data\n- Preprocess the data",
+        "criticism": "I need to carefully evaluate the websites to ensure that the data is accurate and reliable.",
+        "speak": "I will evaluate the websites returned by the google search and choose the most reliable one to download historical data of meme coins."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.coingecko.com/en/coins/meme/historical_data",
+            "question": "Is this website a reliable source for historical data of meme coins?"
+        }
+    }
+}

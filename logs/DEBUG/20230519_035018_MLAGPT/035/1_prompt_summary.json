@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': \"This reminds you of these events from your past: \\nI used the 'execute_shell_popen' command to start a subprocess with PID:269. Then, I tried to execute the Python script with the 'execute_python_file' command, but received an error message stating that no tables were found. I then used the 'analyze_code' command to review the code and commented out the line that caused the error.\"}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'your computer', 'content': 'Command analyze_code returned: Error: The model: `gpt-4` does not exist'}, {'role': 'you', 'content': '{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"coin data downloader python use CoinGecko API\"}}}'}]\n\"\"\"\n"
+    }
+]

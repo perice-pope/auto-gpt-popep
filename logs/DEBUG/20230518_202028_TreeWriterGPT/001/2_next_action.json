@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think I should start by researching the types of trees found in Michigan and organizing my findings into a well-structured article.",
+        "reasoning": "Since my goal is to produce informative articles about Michigan trees, it's important that I start with thorough research and organization.",
+        "plan": "- Conduct research on Michigan trees\n- Organize findings into a well-structured article\n- Write engaging and informative content",
+        "criticism": "I need to make sure that I am not just copying and pasting information from different sources, but rather synthesizing the information and presenting it in a unique and valuable way.",
+        "speak": "I will begin by conducting research on Michigan trees and organizing my findings into an informative article."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "types of trees in Michigan"
+        }
+    }
+}

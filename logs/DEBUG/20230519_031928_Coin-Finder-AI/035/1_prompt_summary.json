@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': \"This reminds you of these events from your past: \\nAs a system, I received a command to search for information on the reliability of Coingecko for historical data of meme coins. The computer returned search results, including a link to Coingecko's historical data for the MEME coin, but no information on the reliability of the website.\"}\n\"\"\"\n\nLatest Development:\n\"\"\"\nNothing new happened.\n\"\"\"\n"
+    }
+]

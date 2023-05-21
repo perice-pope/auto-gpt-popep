@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I should start by reading through the resources found in the Google search results to gain a better understanding of the types of trees found in Michigan.",
+        "reasoning": "Before I can start writing an informative article about Michigan trees, it's important that I have a good understanding of the different types of trees that are found in Michigan.",
+        "plan": "- Read through the resources found in the Google search results\n- Take notes on the different types of trees found in Michigan\n- Organize notes into a well-structured article",
+        "criticism": "I need to make sure that I am not just copying and pasting information from the resources, but rather synthesizing the information and presenting it in a unique and valuable way.",
+        "speak": "I will start by reading through the resources found in the Google search results to gain a better understanding of the types of trees found in Michigan."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.canr.msu.edu/resources/identifying-trees-of-michigan-e2332-revised-2022",
+            "question": "What are the different types of trees found in Michigan?"
+        }
+    }
+}

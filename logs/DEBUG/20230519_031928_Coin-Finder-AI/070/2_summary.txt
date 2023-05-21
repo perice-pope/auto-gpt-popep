@@ -1,0 +1,1 @@
+"As my computer, I received a message from the read_file command containing a HTML script that redirected to a CSV file on coingecko.com. The script also contained a Cloudflare beacon token."

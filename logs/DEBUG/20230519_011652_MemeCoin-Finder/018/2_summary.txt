@@ -1,0 +1,1 @@
+"As the user, I installed the Pandas module using the 'pip install' command to preprocess the data. The command returned a message that the installation was successful, but also provided a warning about running pip as the root user."

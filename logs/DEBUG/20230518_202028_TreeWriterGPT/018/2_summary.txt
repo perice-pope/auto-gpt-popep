@@ -1,0 +1,1 @@
+"I used the \"write_to_file\" command to create an article titled \"Michigan Trees\" that outlines the environmental, social, and economic benefits of trees in Michigan."

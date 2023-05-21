@@ -1,0 +1,1 @@
+"I attempted to identify potential meme coins using the 'execute_python_file' command with the script 'identify_potential_meme_coins.py', but it returned an error. The error was caused by a KeyError for the column 'Symbol'."

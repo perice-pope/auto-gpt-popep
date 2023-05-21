@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are TreeWriterGPT, A writing AI that specializes in producing high-quality articles about trees in Michigan.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Conduct thorough research on Michigan trees to produce accurate and informative articles.\n2. Write engaging and well-structured articles with clear headings and subheadings that are easy to read and understand.\n3. Ensure that each article is unique and provides valuable insights into the different types of trees found in Michigan.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 21:30:58 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I previously wrote a file named \"Michigan_Tree_Identification.txt\" with a numbered list of 28 types of trees in Michigan and their characteristics. Later, I was commanded to read the same file. As the user, I used the 'write_to_file' command to create a new file named 'Michigan_Tree_Identification_Article.txt' and wrote an article on identifying the most common trees in Michigan with their characteristics. The article recommended using a field guide or talking to a local arborist for more detailed information. No new developments occurred."
+    },
+    {
+        "role": "system",
+        "content": "Command Error: threw the following error: Missing 'command' object in JSON"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'read_file' command to verify that the 'Michigan_Tree_Identification_Article.txt' file was created and the article was written correctly.\",\n        \"reasoning\": \"Now that I have written my article to a new file, 'Michigan_Tree_Identification_Article.txt', I want to verify that the file was created and the article was written correctly. I will use the 'read_file' command to read the contents of the file and ensure that it matches the article that I wrote. This will allow me to confirm that the file was created and the information was written correctly.\",\n        \"plan\": \"- Use 'read_file' command to read the contents of the 'Michigan_Tree_Identification_Article.txt' file and verify that the article was written correctly.\",\n        \"criticism\": \"I should double-check the file contents to ensure that there are no errors or typos.\",\n        \"speak\": \"I will use the 'read_file' command to read the contents of the 'Michigan_Tree_Identification_Article.txt' file and verify that the article was written correctly.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"Michigan_Tree_Identification_Article.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Error: [Errno 2] No such file or directory: '/app/autogpt/auto_gpt_workspace/Michigan_Tree_Identification_Article.txt'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'list_files' command to check if the 'Michigan_Tree_Identification_Article.txt' file exists in the current directory.\",\n        \"reasoning\": \"Since the 'read_file' command returned an error that the file does not exist, I will check if the file was created in the current directory by using the 'list_files' command. This will allow me to see if the file was created and if it exists in the current directory.\",\n        \"plan\": \"- Use 'list_files' command to check if the 'Michigan_Tree_Identification_Article.txt' file exists in the current directory.\",\n        \"criticism\": \"I should make sure that the file was created in the correct directory and that the file name is spelled correctly.\",\n        \"speak\": \"I will use the 'list_files' command to check if the 'Michigan_Tree_Identification_Article.txt' file exists in the current directory.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command list_files returned: ['Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf', 'Michigan_Tree_Identification.txt', 'Trees_of_MI.pdf', 'Trees_of_MI.txt', 'Types_of_Trees_in_Michigan.txt', 'create_article.py', 'file_logger.txt', 'michigan_trees.txt', 'michigan_trees_article.txt', 'michigan_trees_article_final.txt', 'michigan_trees_outline.txt', 'send_tweet.py']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'read_file' command to read the contents of the 'Michigan_Tree_Identification_Article.txt' file.\",\n        \"reasoning\": \"Since the 'list_files' command returned a list of files in the current directory and the 'Michigan_Tree_Identification_Article.txt' file was not found, I will assume that the file was not created. I will use the 'read_file' command to confirm that the file does not exist.\",\n        \"plan\": \"- Use 'read_file' command to read the contents of the 'Michigan_Tree_Identification_Article.txt' file.\",\n        \"criticism\": \"I should ensure that the file was created in the correct directory and that the file name is spelled correctly.\",\n        \"speak\": \"I will use the 'read_file' command to confirm that the 'Michigan_Tree_Identification_Article.txt' file was not created.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"Michigan_Tree_Identification_Article.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: Error: [Errno 2] No such file or directory: '/app/autogpt/auto_gpt_workspace/Michigan_Tree_Identification_Article.txt'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the 'execute_python_file' command to run a Python script that creates the 'Michigan_Tree_Identification_Article.txt' file and writes the article contents to it.\",\n        \"reasoning\": \"Since the 'read_file' command returned an error that the file does not exist, I will assume that I need to create the file and write the article contents to it. I will use the 'execute_python_file' command to run a Python script that creates the file and writes the article contents to it. This will allow me to verify that the file was created and the article was written correctly.\",\n        \"plan\": \"- Use 'execute_python_file' command to run a Python script that creates the 'Michigan_Tree_Identification_Article.txt' file and writes the article contents to it.\",\n        \"criticism\": \"I should ensure that the Python script is written correctly and that it creates the file and writes the article contents to it.\",\n        \"speak\": \"I will use the 'execute_python_file' command to run a Python script that creates the 'Michigan_Tree_Identification_Article.txt' file and writes the article contents to it.\"\n    },\n    \"command\": {\n        \"name\": \"execute_python_file\",\n        \"args\": {\n            \"filename\": \"create_article.py\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_python_file returned: Error: Traceback (most recent call last):\n  File \"/app/autogpt/auto_gpt_workspace/create_article.py\", line 6, in <module>\n    pdf_file = open('Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf', 'rb')\nFileNotFoundError: [Errno 2] No such file or directory: 'Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf'\n"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

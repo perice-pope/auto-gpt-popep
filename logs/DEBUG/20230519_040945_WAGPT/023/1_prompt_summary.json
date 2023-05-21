@@ -1,0 +1,6 @@
+[
+    {
+        "role": "user",
+        "content": "Your task is to create a concise running summary of actions and information results in the provided text, focusing on key and potentially important information to remember.\n\nYou will receive the current summary and the your latest actions. Combine them, adding relevant key information from the latest development in 1st person past tense and keeping the summary concise.\n\nSummary So Far:\n\"\"\"\n{'role': 'system', 'content': 'This reminds you of these events from your past: \\nI used the \\'browse_website\\' command to search for more information on the RICK whitepaper. The website mentioned the \"Rick token whitepaper (RICK)\" but did not provide any further information about it. The website also included links to various pages related to the RICK token. However, the browse_website command returned an answer gathered from the website stating that the text did not mention anything about a whitepaper for the RICK token, but provided information on the commitment of the token and how to buy it on Poocoin and PancakeSwap exchanges. The website also included links to various pages related to the RICK token.'}\n\"\"\"\n\nLatest Development:\n\"\"\"\n[{'role': 'you', 'content': '{\"command\": {\"name\": \"google\", \"args\": {\"query\": \"rick token white paper\"}}}'}]\n\"\"\"\n"
+    }
+]

@@ -1,0 +1,1 @@
+"As a system, I received a command to google \"Different types of trees in Michigan\". My computer returned a list of 28 types of trees in Michigan, including Ash, Basswood, and Cherry. There were also articles on how to identify the most common trees in Michigan and the most common pine trees."

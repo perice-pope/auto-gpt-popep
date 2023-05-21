@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "It seems the whitepaper is not available on the official website. I will use the 'google' command to search for the RICK cryptocurrency whitepaper and download it from a reputable source.",
+        "reasoning": "If the whitepaper is not available on the official website, I will have to search for it elsewhere. Googling for the whitepaper will provide me with a list of websites that offer the whitepaper, and I can choose a reputable source to download it from.",
+        "plan": "- Use the 'google' command to search for the RICK cryptocurrency whitepaper.\n- Choose a reputable source from the search results to download the whitepaper.",
+        "criticism": "I need to ensure that I am downloading the latest version of the whitepaper from a reputable source. Additionally, I need to ensure that the whitepaper is not corrupted or tampered with.",
+        "speak": "I will use the 'google' command to search for the RICK cryptocurrency whitepaper and download it from a reputable source."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "RICK cryptocurrency whitepaper download"
+        }
+    }
+}

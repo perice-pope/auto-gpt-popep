@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will use the 'execute_shell' command to install pdftotext package.",
+        "reasoning": "The 'execute_shell' command returned an error message that the pdftotext package is not found. Therefore, I will use the 'execute_shell' command to install pdftotext package.",
+        "plan": "- Use the 'execute_shell' command to install pdftotext package.",
+        "criticism": "None.",
+        "speak": "I will use the 'execute_shell' command to install pdftotext package."
+    },
+    "command": {
+        "name": "execute_shell",
+        "args": {
+            "command_line": "sudo apt-get install -y poppler-utils"
+        }
+    }
+}

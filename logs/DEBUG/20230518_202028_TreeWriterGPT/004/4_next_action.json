@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Now that I have a list of the different types of trees found in Michigan and their characteristics, I should research each type of tree in more detail to provide more valuable insights in my article.",
+        "reasoning": "Providing detailed information about each type of tree found in Michigan will make my article more valuable and informative for readers.",
+        "plan": "- Research each type of tree found in Michigan in more detail\n- Take notes on the uses, benefits, and unique characteristics of each type of tree\n- Organize notes into a well-structured article",
+        "criticism": "I need to make sure that I am using reliable sources for my research and that my notes are accurate and well-written.",
+        "speak": "Now that I have a list of the different types of trees found in Michigan and their characteristics, I will start researching each type of tree in more detail to provide more valuable insights in my article."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.michigan.gov/dnr/0,4570,7-350-79119_79146_82448---,00.html",
+            "question": "What are some unique characteristics of Michigan trees?"
+        }
+    }
+}

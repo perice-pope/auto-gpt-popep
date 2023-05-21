@@ -1,0 +1,58 @@
+[
+    {
+        "role": "system",
+        "content": "You are TreeWriterGPT, A writing AI that specializes in producing high-quality articles about trees in Michigan.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\nThe OS you are running on is: Debian GNU/Linux 11 (bullseye)\n\nGOALS:\n\n1. Conduct thorough research on Michigan trees to produce accurate and informative articles.\n2. Write engaging and well-structured articles with clear headings and subheadings that are easy to read and understand.\n3. Ensure that each article is unique and provides valuable insights into the different types of trees found in Michigan.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. execute_shell: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n4. execute_shell_popen: Execute Shell Command, non-interactive commands only, args: \"command_line\": \"<command_line>\"\n5. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n6. delete_file: Delete file, args: \"filename\": \"<filename>\"\n7. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n8. read_file: Read file, args: \"filename\": \"<filename>\"\n9. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n10. google: Google Search, args: \"query\": \"<query>\"\n11. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n12. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n13. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n14. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n15. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n16. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n17. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n18. list_agents: List GPT Agents, args: () -> str\n19. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n20. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n21. task_complete: Task Complete (Shutdown), args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Thu May 18 21:35:48 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I have no new developments to report. However, I executed a shell command to download the file \"Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf\" using the command \"wget -O Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf https://msu-prod-52-external-863686526.us-east-1.elb.amazonaws.com/natural_resources/uploads/files/E2332_IdentifyingTreesinMichigan_5.16_FinalAA.pdf\"."
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell_popen returned: Subprocess started with PID:'1443'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'execute_shell_popen' command was successful and the PDF guide has been downloaded and saved as 'Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf'. I will use the 'list_files' command to verify that the file has been downloaded and saved correctly.\",\n        \"reasoning\": \"The 'execute_shell_popen' command was successful and the PDF guide has been downloaded and saved as 'Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf'. To verify that the file has been downloaded and saved correctly, I will use the 'list_files' command to list all files in the current directory.\",\n        \"plan\": \"- Use 'list_files' command to verify that the PDF guide has been downloaded and saved correctly.\",\n        \"criticism\": \"I should also check the file size and ensure that it matches the expected size of the PDF guide.\",\n        \"speak\": \"The 'execute_shell_popen' command was successful and the PDF guide has been downloaded and saved as 'Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf'. I will use the 'list_files' command to verify that the file has been downloaded and saved correctly.\"\n    },\n    \"command\": {\n        \"name\": \"list_files\",\n        \"args\": {\n            \"directory\": \".\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command list_files returned: ['Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf', 'Michigan_Tree_Identification.txt', 'Trees_of_MI.pdf', 'Trees_of_MI.txt', 'Types_of_Trees_in_Michigan.txt', 'create_article.py', 'file_logger.txt', 'michigan_trees.txt', 'michigan_trees_article.txt', 'michigan_trees_article_final.txt', 'michigan_trees_outline.txt', 'send_tweet.py']"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'list_files' command has confirmed that the PDF guide has been downloaded and saved correctly. I will use the 'read_file' command to read the PDF guide and extract information about the different types of trees found in Michigan.\",\n        \"reasoning\": \"The 'list_files' command has confirmed that the PDF guide has been downloaded and saved correctly. To extract information about the different types of trees found in Michigan, I will use the 'read_file' command to read the PDF guide.\",\n        \"plan\": \"- Use 'read_file' command to read the PDF guide and extract information about the different types of trees found in Michigan.\",\n        \"criticism\": \"I should ensure that the extracted information is accurate and up-to-date.\",\n        \"speak\": \"The 'list_files' command has confirmed that the PDF guide has been downloaded and saved correctly. I will use the 'read_file' command to read the PDF guide and extract information about the different types of trees found in Michigan.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"Identifying_Trees_of_Michigan_E2332_Revised_2022.pdf\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command read_file returned: "
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"The 'read_file' command returned an empty string. This is because the 'read_file' command is not capable of reading PDF files. I will use the 'execute_shell' command to install the 'pdftotext' utility, which can be used to convert PDF files to text files.\",\n        \"reasoning\": \"The 'read_file' command returned an empty string because it is not capable of reading PDF files. To convert the PDF guide to a text file, I will use the 'execute_shell' command to install the 'pdftotext' utility, which can be used to convert PDF files to text files.\",\n        \"plan\": \"- Use 'execute_shell' command to install the 'pdftotext' utility.\",\n        \"criticism\": \"I should ensure that the 'pdftotext' utility is installed correctly and that it is the latest version.\",\n        \"speak\": \"The 'read_file' command returned an empty string. This is because the 'read_file' command is not capable of reading PDF files. I will use the 'execute_shell' command to install the 'pdftotext' utility, which can be used to convert PDF files to text files.\"\n    },\n    \"command\": {\n        \"name\": \"execute_shell\",\n        \"args\": {\n            \"command_line\": \"sudo apt-get install -y poppler-utils\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command execute_shell returned: STDOUT:\nb''\nSTDERR:\nb'/bin/sh: 1: sudo: not found\\n'"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

@@ -1,0 +1,1 @@
+"As a system, I am reminded of my creation and that the user executed a shell command to install beautifulsoup4 and requests packages. The command was successful and returned no errors, but with a warning about running pip as root. The installed beautifulsoup4 version is 4.12.2 and requests version is 2.30.0."

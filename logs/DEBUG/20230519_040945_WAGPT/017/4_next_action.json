@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "There are no GPT Agents currently available. I will use the 'google' command to search for the RICK whitepaper.",
+        "reasoning": "There are no GPT Agents currently available. Therefore, I will use the 'google' command to search for the RICK whitepaper.",
+        "plan": "- Use the 'google' command to search for the RICK whitepaper.",
+        "criticism": "None.",
+        "speak": "I will use the 'google' command to search for the RICK whitepaper."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "RICK cryptocurrency whitepaper"
+        }
+    }
+}

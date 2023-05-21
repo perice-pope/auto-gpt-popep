@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I will use the 'browse_website' command to visit http://rickletoken.com/Rickle-Whitepaper.pdf and read the Rickle whitepaper.",
+        "reasoning": "The 'google' command returned a link to the Rickle whitepaper on the website http://rickletoken.com/Rickle-Whitepaper.pdf. Therefore, I will use the 'browse_website' command to visit the website and read the whitepaper.",
+        "plan": "- Use the 'browse_website' command to visit http://rickletoken.com/Rickle-Whitepaper.pdf and read the Rickle whitepaper.",
+        "criticism": "None.",
+        "speak": "I will use the 'browse_website' command to visit http://rickletoken.com/Rickle-Whitepaper.pdf and read the Rickle whitepaper."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "http://rickletoken.com/Rickle-Whitepaper.pdf",
+            "question": "Please read the Rickle whitepaper."
+        }
+    }
+}
